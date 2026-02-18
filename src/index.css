@@ -7,7 +7,24 @@
   --color-accent: #915eff;
   --color-tech: #00cea8;
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+.animate-fade-in {
+  /* Delays the logo appearance until the Loader text "lands" */
+  animation: fadeIn 0.5s ease-out forwards;
+  animation-delay: 2.5s;
+}
+
+.animate-infinite-scroll {
+  animation: scroll 20s linear infinite;
+}
 /* Keep your custom fonts and resets below */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
