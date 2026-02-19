@@ -53,7 +53,7 @@ const About = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="bg-accent/10 border border-accent/20 p-8 rounded-2xl flex flex-col justify-center items-center text-center"
           >
-            <h4 className="text-5xl font-bold text-accent mb-2">9.15</h4>
+            <h4 className="text-5xl font-bold text-accent mb-2">9.04</h4>
             <p className="text-sm text-txtSub uppercase tracking-widest">
               CGPA (Current)
             </p>
