@@ -12,7 +12,7 @@ const StarBackground = () => {
     canvas.height = window.innerHeight;
 
     const stars = [];
-    const numStars = 100; // Number of stars
+    const numStars = 50; // Number of stars
 
     // Initialize stars
     for (let i = 0; i < numStars; i++) {
